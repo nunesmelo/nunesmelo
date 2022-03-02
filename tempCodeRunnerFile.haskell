@@ -1,0 +1,2 @@
+olamundo :: IO()
+olamundo = putStrLn "Olá, Mundo!"
