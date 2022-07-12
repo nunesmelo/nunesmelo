@@ -50,7 +50,7 @@ D2F_3 = (-49.0/2.0)*((1.0/18.0)*F_0 (X))/DX**2 + 3*(F_0 (X+DX) + F_0 (X-DX))/DX*
            
             D2F_3 = D2F_3 + (1.0/90.0)*(F_0 (X+3*DX) + F_0 (X-3*DX))/DX**2     ! CONTINUACAO DA DERIVADA NA LINHA 
              ! D2F_3 >> DERIVADA SEGUNDA DE ORDEM 6:  (OBS, NAO USAR!!)
-          ERR = ERRD (F_2,D2F_2) 
+          ERR = ERRD (F_2,D2F_2)!
           
           PRINT*, ERR 
         !  PRINT*, D2F_3
